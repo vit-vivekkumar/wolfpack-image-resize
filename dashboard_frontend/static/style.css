@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  background-image: linear-gradient(79deg, #7439db, #C66FBC 48%,#F7944D);
+  padding: 0px;
+  margin: 0px;
+}
+
+#para{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-color: white;
+  color: blue;
+  font-family: popils;
+  border-bottom: 1px solid transparent;
+  margin: 0;
+  padding-left: 30px;
+}
+
+#para small{
+  color: red;
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+.auth-form-container, .login-form, .register-form{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+@media screen and (min-width: 600px){
+  .auth-form-container {
+ padding: 3rem;
+ border: 1px solid white;
+ border-radius: 5px;
+ margin: 0.5rem;
+/* box-shadow: 5px 5px #1899A6;*/
+}
+
+}
+
+.auth-form-container {
+ padding: 1.6rem;
+ border: 1px solid white;
+ border-radius: 5px;
+ margin: 0.5rem;
+
+}
+
+
+label {
+  display: inline-block;
+    width: 90%;
+    text-align: left;
+    color: white;
+}
+
+h4{
+  color: ghostwhite;
+}
+input{
+  margin: 0.5rem 0;
+  padding: 0.80rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button{
+  border: none;
+   background-color: #1899D6;
+  padding:15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+}
+
+.link-btn{
+  background: none;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link-btn:hover{
+  background: none;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}

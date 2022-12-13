@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+ 
+
+{% block content  %}
+<div class="auth-form-container">
+			<h4>User Registration Form</h4>
+			<form class="register-form" onSubmit={handleSubmit}>
+				<label htmlFor="email" >Email </label>
+				<input value={email} type="email" name="email" id="email"/>
+				
+				<label htmlFor="name" >Username </label>
+				<input value={name}  type="email" name="email" id="email"/>
+
+				<label htmlFor="password">Password </label>
+				<input value={password}  type="password" name="password" id="password"/>
+
+				<label htmlFor="cpassword">Confirm Password </label>
+				<input value={cpassword}  type="password" name="password" id="password"/>	
+
+				<button type="submit" >Register</button>
+			</form>
+			<button class="link-btn">Already have account? Login</button>
+	</div>
+
+{% endblock content  %}
+
+

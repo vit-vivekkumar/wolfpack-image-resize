@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+	<title>Wolfpack</title>
+</head>
+<body>
+<h2 id="para">🐱‍💻Wolfpack  <small>Image Resizer</small></h2>
+<div class="App">
+			{% block content %}
+			{% endblock content %}
+</div>
+</body>
+</html>
